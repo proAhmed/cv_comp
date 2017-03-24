@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".offers.OfferDetails">
+    <LinearLayout
+        android:id="@+id/reAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/actionbar">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/back"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_weight="6.4"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgOfferDetails"
+        android:layout_width="match_parent"
+        android:src="@drawable/companys"
+        android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/tvOfferDetailsTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/text_gray"
+    android:textSize="20sp"
+    android:layout_gravity="center_horizontal"
+    android:text="Offer 1"
+    android:layout_marginTop="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/tvOfferDetailsStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="23 october 2016"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/text_gray"
+            />
+
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="1dp"
+            android:background="@color/text_gray"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:id="@+id/tvOfferDetailsEnd"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_height="wrap_content"
+            android:text="23 novmber 2016"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/text_gray"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnCallNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:paddingRight="56dp"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:text="اتصل الان"/>
+
+    <Button
+        android:id="@+id/btnWebSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:textColor="@color/white"
+        android:background="@color/light_blue"
+        android:text="الموقع"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:textColor="@color/white"
+        android:background="@color/light_green"
+        android:text="شارك"/>
+</LinearLayout>

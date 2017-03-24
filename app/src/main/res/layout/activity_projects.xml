@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="20dp"
+    android:elevation="12dp"
+    android:background="@android:color/transparent"
+    tools:context=".company_profile.Projects">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgProject"
+        android:layout_width="match_parent"
+        android:src="@drawable/companys"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reImage"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="@color/text_gray"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Projects"/>
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="1.5dp"
+        android:paddingBottom="40dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:paddingTop="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_dark"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:text="DESCRIPTION"/>
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/text_gray"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:text="Suffering because of hot weat her."/>
+
+<Button
+    android:id="@+id/btnBack"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Back"
+    android:textColor="#00ff00"
+    android:paddingTop="10dp"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    android:paddingBottom="10dp"
+    android:textSize="17sp"
+    android:layout_marginTop="45dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/button_green"/>
+</LinearLayout>
+</RelativeLayout>

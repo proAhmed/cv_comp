@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CV-Company</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="loading">Loading</string>
+    <string name="failure_ws">Failure</string>
+    <string name="confirm_call">do you want make a call ?</string>
+    <string name="yes">yes</string>
+    <string name="cancel">cancel</string>
+    <string name="open_drawer">open</string>
+    <string name="close_drawer">close</string>
+    <string name="home">Home</string>
+    <string name="customer_service">customer service</string>
+    <string name="social">social</string>
+    <string name="fac">facebook</string>
+    <string name="twitter">twitter</string>
+    <string name="youtube">youtube</string>
+    <string name="instagram">instagram</string>
+    <string name="companies">Companies</string>
+    <string name="department">Department</string>
+    <string name="offers">Offers</string>
+    <string name="share_using">share</string>
+
+</resources>

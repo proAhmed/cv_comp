@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">CV-Company</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="loading">جارى التحميل</string>
+    <string name="failure_ws">فشل التحميل</string>
+    <string name="confirm_call">هل ترغب فى القيام باتصال ؟</string>
+    <string name="yes">نعم</string>
+    <string name="cancel">لا</string>
+    <string name="home">الرئيسية</string>
+    <string name="customer_service">خدمة عملاء</string>
+    <string name="social">تواصل اجتماعى</string>
+    <string name="fac">فيس بوك</string>
+    <string name="twitter">تويتر</string>
+    <string name="youtube">يوتيوب</string>
+    <string name="instagram">انستجرام</string>
+    <string name="companies">الشركات</string>
+    <string name="department">الاقسام</string>
+    <string name="offers">العروض</string>
+    <string name="share_using">شارك</string>
+
+
+</resources>

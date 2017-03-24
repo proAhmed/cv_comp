@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:squint="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".company_profile.ProfileCompany">
+    <LinearLayout
+        android:id="@+id/reAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/actionbar">
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5"
+
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/back"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_weight="6.4"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <com.intrusoft.squint.DiagonalView
+            android:id="@+id/diagonal"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:scaleType="centerCrop"
+            squint:diagonalDirection="right_to_left"
+            squint:angle="6"
+            squint:gravity="right" />
+
+        <!--<com.profile.cv.ahmed.cvprofile.controller.RoundedImageView-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_marginLeft="45dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:background="@color/white"-->
+            <!--/>-->
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:civ_border_color="#fff"
+            app:civ_border_width="4dp"
+            android:padding="3dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/circularImageView" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+         android:text="الوصف"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:textSize="16sp"
+        android:gravity="center_horizontal"
+         android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/tvDescription" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_gray"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="15dp"
+     android:layout_marginEnd="15dp"
+     android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgCall"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_margin="4dp"
+        android:src="@drawable/call_icon"/>
+    <TextView
+        android:id="@+id/tvPhoneNo"
+        android:layout_width="wrap_content"
+        android:textColor="@color/text_gray"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+         android:layout_height="wrap_content"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/text_gray"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="center_vertical|end|right"
+        android:textSize="18sp"
+        android:layout_height="wrap_content"
+        android:text="رقم الهاتف"/>
+
+</LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="right|end"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_gray"
+            android:textSize="18sp"
+            android:layout_gravity="right"
+            android:autoLink="email"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_height="wrap_content"
+            android:text="eee@gmail.com"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/text_gray"
+             android:textSize="18sp"
+            android:layout_height="wrap_content"
+
+            android:text="الايميل"/>
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+         android:layout_marginTop="10dp"
+        android:background="@color/text_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp"
+         android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="end"
+        android:layout_marginEnd="15dp"
+        android:text="الفروع"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reBranches"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+         android:layout_height="60dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+         android:background="@color/text_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+        android:textSize="18sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="المشاريع"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reProject"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+         android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/text_gray"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray"
+         android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:text="اتصل بنا"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/reContactUs"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        />
+    <LinearLayout
+        android:id="@+id/linViewMap"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_horizontal"
+        android:background="#E5E3E8">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#505AA1"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="افتح الخريطه"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
